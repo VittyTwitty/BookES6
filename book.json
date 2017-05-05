@@ -1,0 +1,42 @@
+{
+  "gitbook": "3.x.x",
+  "plugins": [
+    "edit-link", "github", "ga", "rss", "github-buttons"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/LambdaBooks/understandinges6ua/tree/master",
+      "label": "Редагувати"
+    },
+    "github": {
+      "url": "https://github.com/LambdaBooks/understandinges6ua"
+    },
+    "ga": {
+      "token": "UA-40496885-6"
+    },
+    "rss": {
+      "title": "Рoзуміння ECMAScript 6",
+      "description": "Український переклад книги «Understanding ES6».",
+      "author": "Denys Dovhan",
+      "site_url": "http://understandinges6.denysdovhan.com/",
+      "feed_url": "http://understandinges6.denysdovhan.com/rss.xml",
+      "managingEditor": "email@denysdovhan.com (Denys Dovhan)",
+      "webMaster": "email@denysdovhan.com (Denys Dovhan)",
+      "categories": [
+        "frontend",
+        "js",
+        "javascript",
+        "es6",
+        "es2015",
+        "ecmascript"
+      ]
+    },
+    "github-buttons": {
+      "repo": "LambdaBooks/understandinges6ua",
+      "types": [
+        "star"
+      ],
+      "size": "small"
+    }
+  }
+}
